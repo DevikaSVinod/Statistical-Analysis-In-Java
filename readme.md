@@ -1,8 +1,8 @@
-**Urinalysis Data Analysis Suite**
+## Urinalysis Data Analysis Suite
 
 A powerful Java application suite for comprehensive analysis of urinalysis test data. This tool offers data cleaning, statistical analysis, and distribution shape assessment to help medical professionals gain deeper insights from their datasets.
 
-**Key Components**
+### Key Components
 
 - **Main Application (Main.java)**: The central control unit that provides a user-friendly menu interface for accessing various data analysis tools.
 
@@ -29,7 +29,7 @@ A powerful Java application suite for comprehensive analysis of urinalysis test 
   - Computes kurtosis to understand tailedness
   - Helps identify outliers and distribution shape
 
-**Key Features**
+### Key Features
 
 - Data Import: Reads and parses CSV files into manageable datasets.
 - Data Cleaning: Removes incomplete records for more accurate analysis.
@@ -39,7 +39,7 @@ A powerful Java application suite for comprehensive analysis of urinalysis test 
 - Error Handling: Gracefully manages file errors and invalid inputs.
 - User-Friendly Interface: Simple menu-driven system for easy navigation.
 
-**Usage**
+### Usage
 
 1. Place urinalysis_tests.csv in the application directory.
 2. Run Main.java.
@@ -51,12 +51,12 @@ A powerful Java application suite for comprehensive analysis of urinalysis test 
    - Calculate Skewness & Kurtosis
    - Exit
 
-**Requirements**
+### Requirements
 
 - Java Development Kit (JDK) 8 or higher
 - urinalysis_tests.csv file
 
-**Project Structure**
+### Project Structure
 
 - **Main.java**: Core application with user interface
 - **data Package**:
@@ -66,14 +66,14 @@ A powerful Java application suite for comprehensive analysis of urinalysis test 
   - NullValueCounter.java: Null value analysis
   - SkewnessKurtosisCalculator.java: Distribution shape analysis
 
-**Advanced Features**
+### Advanced Features
 
 - Matrix Generation: Creates correlation and covariance matrices for in-depth relationship analysis.
 - Data Preview: Shows head and tail of cleaned data for quick verification.
 - Robust Data Handling: Extracts numerical columns automatically.
 - Edge Case Handling: Manages scenarios like constant values in columns.
 
-**Future Enhancements**
+### Future Enhancements
 
 1. Machine Learning Integration for Predictive Analysis
 2. Data Visualization Tools
@@ -81,6 +81,6 @@ A powerful Java application suite for comprehensive analysis of urinalysis test 
 4. Web-Based Interface
 5. Real-Time Data Processing
 
-**Contributing**
+### Contributing
 
 We welcome contributions! Fork the repository, make improvements, and submit pull requests. For major changes, please open an issue first.
