@@ -79,7 +79,7 @@ public class Main {
             } else {
                 // Handle case when the CSV file is empty or no data is found
                 System.out.println("No data found in the CSV file.");
-            }
+            }scanner.close();
         } catch (IOException e) {
             // Handle exceptions related to file operations
             e.printStackTrace();
